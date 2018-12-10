@@ -20,5 +20,14 @@ Stworzony plik ma nazwę keylogger-1.0.jar i znajduje się w foldrze ``.\target`
 W celu ukrycia pliku, możliwe jest umieszczenie go np w folderze domowym i podpisanie jako plik systemowy.
 W celu ułatwienia sprawdzania zadania, plik nie został ukryty.
 
+## Komunikacja z Internetem
+Aby zdiagnozować połączenie internetowe, program sprawdza dostępność serwera google.com (może to być jakikolwiek inny serwer, na który wysyłane są dane).
+<br>Po wykryciu połączenia plik zostaje wyczyszczony, symulując wysyłanie danych na serwer.
+<br>Operacja wykonywana jest co 1 minutę.
+
 ## Praca w tle
 Program ma mozliwośc pracy w tle. Wyłączyć można go z menadżera zadań.
+
+## Autor
+<b>Andrzej Miazga
+<br>Indeks: 226024</b>
