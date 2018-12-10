@@ -5,6 +5,7 @@ Dane zapisuje w pliku Log.txt, który znajduje się w tym samym folderze co plik
 Dane wysyłane są co 1 minutę (i usuwane z pliku). W przypadku braku połączenia z internetem, dane nie są kasowane z pliku. 
 
 ## Tworzenie pliku wykonywalnego
+Do zbudowania projektu nie potrzeba oprogramowania maven. W projekcie znajduje się wrapper, który umożliwia wykonywanie polezeń mavena bez konieczności jego instalacji.
 * Czyszczenie projektu
 ````$xslt
 .\mvnw clean:clean
